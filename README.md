@@ -54,7 +54,7 @@ pip install pandas jupyter
 Then launch the notebook:
 
 ```bash
-jupyter notebook capstone_analysis.ipynb
+jupyter notebook flights_hotels_analysis.ipynb
 ```
 
 ## 📁 Folder Structure
