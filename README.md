@@ -67,7 +67,7 @@ project/
 │   └── hotels_usa.csv
 │
 ├── notebooks/
-│   └── capstone_analysis.ipynb
+│   └── flights_hotels_analysis.ipynb
 │
 └── README.md
 ```
