@@ -21,7 +21,7 @@ Build an interactive vacation planning tool using real-world datasets to identif
 | `pandas`             | Data cleaning, transformation, and grouping |
 | `matplotlib`         | Static visualization                        |
 | `seaborn`            | Enhanced scatter plots                      |
-| `plotly` (optional)  | Interactive visualizations                  |
+| `plotly`             | Interactive visualizations                  |
 | `sqlite3`            | SQL-style data joining within Python        |
 | `Jupyter Notebook`   | Exploratory analysis environment            |
 | `Python 3.x`         | Core programming language                   |
@@ -144,4 +144,3 @@ For questions, collaboration, or feedback, feel free to contact:
 
 Salim Kaan Celik
 📧 Email: celik1999@gmail.com
-🔗 GitHub: @kaancelik99
