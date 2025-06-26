@@ -89,13 +89,13 @@ The project workflow follows these key steps:
 
 vacation-planning-package/
 ├── data/
-│ ├── flight_data_usa.csv # Raw flight data
-│ └── hotels_usa.csv # Raw hotel data
+│ ├── flight_data_usa.csv
+│ └── hotels_usa.csv 
 │
 ├── notebooks/
-│ └── flights_hotels_analysis.ipynb # Main analysis notebook
+│ └── flights_hotels_analysis.ipynb 
 │
-└── README.md # Project documentation
+└── README.md 
 
 ---
 
@@ -144,3 +144,4 @@ For questions, collaboration, or feedback, feel free to contact:
 
 Salim Kaan Celik
 📧 Email: celik1999@gmail.com
+
