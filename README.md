@@ -1,88 +1,55 @@
-# ✈️ Vacation Planning Package: Flight Affordability & Hotel Quality
+✈️ Vacation Planning Package: Flight Affordability & Hotel Quality
+This project analyzes two datasets—U.S. domestic flight data and hotel information—to build a data-driven vacation planning tool. The goal is to recommend a vacation package based on affordable flights and high-quality hotel accommodations.
 
-This project analyzes two datasets—U.S. domestic flight data and hotel information—to build a **data-driven vacation planning tool**. The goal is to recommend an ideal vacation package based on affordable flights and high-quality hotel accommodations.
+🧭 Project Overview
+This notebook walks through the following steps:
 
----
+Data Loading & Inspection: Import flight and hotel datasets.
+Filtering & Cleaning: Align flight destinations with hotel cities and remove irrelevant entries.
+City-Level Aggregation: Calculate average hotel ratings and average flight prices per city.
+Detailed Case Study: Compare multiple flight and hotel options for a specific destination.
+Final Decision-Making: Select the best pairing based on price, rating, and availability.
+📊 Selection Criteria
+Destination City
+Minimum Frequency of Flights and Hotles: City, State must have at least 16,000 flights and 800 hotels.
+Top 3 in Flight Price and Hotel Rating: City, State must measure in the top 3 among both flight price and hotel rating averages.
+Flights
+Origin: Must depart from outside the U.S.
+Destination: Must be a U.S. city with available hotel data.
+Affordability: Prioritize round-trip flights under $200.
+Convenience: Direct flights preferred.
+Travel Window: Summer months are prioritized.
+Hotels
+Location Match: City, State must correspond to flight destination.
+Quality Threshold: 5-star rating preferred.
+Price Awareness: Balanced against flight cost for overall budget optimization.
+🧾 Data Sources
+Flights Dataset: flight_data_usa.csv
+Hotels Dataset: hotels_usa.csv
+These datasets include information like city, state, flight prices, number of stops, hotel star ratings, and customer review scores.
 
-## 🧭 Project Overview
+📌 Example Result
+✅ Selected Package:
 
-The notebook walks through the following steps:
-
-1. **Data Loading & Inspection** – Import flight and hotel datasets.
-2. **Filtering & Cleaning** – Align flight destinations with hotel cities and remove irrelevant entries.
-3. **City-Level Aggregation** – Calculate average hotel ratings and flight prices per city.
-4. **Detailed Case Study** – Compare flight and hotel options for a selected destination.
-5. **Final Decision-Making** – Select the best city-hotel pairing based on data insights.
-
----
-
-## 📊 Selection Criteria
-
-### Destinations
-- **Minimum Volume**: City, State must have at least **16,000 flights** and **800 hotels**.
-- **Top Performers**: City, State must rank in the **top 3** for both flight affordability and hotel rating.
-
-### Flights
-- **Origin**: Must depart from outside the U.S.
-- **Destination**: U.S. city with matching hotel data.
-- **Affordability**: Round-trip flights should cost **under $200**.
-- **Convenience**: **Direct flights** are preferred.
-- **Timing**: **Summer travel months** are prioritized.
-
-### Hotels
-- **Location Match**: Must correspond with flight destination.
-- **Quality Threshold**: **5-star hotels** with strong review scores are prioritized.
-- **Cost Balance**: Hotel cost is considered in relation to flight price for overall budget optimization.
-
----
-
-## 🧾 Data Sources
-
-- **Flights Dataset**: `flight_data_usa.csv`
-- **Hotels Dataset**: `hotels_usa.csv`
-
-Each dataset includes key variables like:
-- City & State
-- Flight price, stops, and timing
-- Hotel star ratings and customer reviews
-
----
-
-## 📌 Example Result
-
-✅ **Selected Package**:
-
-- **Flight**: Bogotá to Miami (Direct, August, <$200)  
-- **Hotel**: The W South Beach (5 stars, high review score)
-
----
-
-## 🔧 Requirements
-
+Flight: Bogotá to Miami (Direct, August, <$200)
+Hotel: The W South Beach (5 stars, high review score)
+🔧 Requirements
 To run this project:
 
-pip install pandas jupyter matplotlib seaborn
-
+pip install pandas jupyter
 Then launch the notebook:
 
-jupyter notebook notebooks/flights_hotels_analysis.ipynb
-
----
-
+jupyter notebook flights_hotels_analysis.ipynb
 📁 Folder Structure
-
-vacation-planning-package/
+project/
+│
 ├── data/
 │   ├── flight_data_usa.csv
 │   └── hotels_usa.csv
+│
 ├── notebooks/
 │   └── flights_hotels_analysis.ipynb
+│
 └── README.md
-
----
-
 📬 Contact
-For questions, suggestions, or collaboration inquiries, please reach out to Salim Kaan Celik.
-
-🌐 GitHub
-Explore the full repository: Vacation Planning Package
+For questions or suggestions, reach out to Salim Kaan Celik.
