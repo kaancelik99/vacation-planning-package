@@ -1,7 +1,5 @@
-## 🧰 Technologies Used
-- Python (pandas, NumPy)
-- Jupyter Notebook
-- matplotlib, seaborn
-- SQLite (for merged dataset storage)
-- Git & GitHub (version control and hosting)
-
+pandas
+numpy
+jupyter
+matplotlib
+seaborn
