@@ -112,6 +112,7 @@ vacation-planning-package/
 1. **Clone the repository**:
 
 git clone https://github.com/kaancelik99/vacation-planning-package.git
+
 cd vacation-planning-package
 
 2. **Set Up the Virtual Environment**:
@@ -119,8 +120,11 @@ cd vacation-planning-package
 python -m pip install virtualenv
 
 python -m venv venv
+
 source venv/bin/activate      # On Mac/Linux
+
 venv\Scripts\activate         # On Windows
+
 pip install -r requirements.txt
 
 3. **Install required libraries**:
