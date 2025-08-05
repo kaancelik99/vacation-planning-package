@@ -95,15 +95,15 @@ The project workflow follows these key steps:
 
 ## 🗂️ Folder Structure & 🛠 How to Run
 
+```
 vacation-planning-package/
 ├── data/
-│ ├── flight_data_usa.csv
-│ └── hotels_usa.csv 
-│
+│   ├── flight_data_usa.csv
+│   └── hotels_usa.csv
 ├── notebooks/
-│ └── flights_hotels_analysis.ipynb 
-│
-└── README.md 
+│   └── flights_hotels_analysis.ipynb
+└── README.md
+```
 
 ---
 
