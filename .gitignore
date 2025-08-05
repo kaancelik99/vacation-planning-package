@@ -1,7 +1,38 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-.env/
-.DS_Store
-.ipynb_checkpoints/
-*.sqlite
+*.py[cod]
+*$py.class
 
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Tableau temp/cache/lock files
+*.tds
+*.twbx.lock
+*.twb.lock
+
+# Sensitive or large data files (if needed)
+# data/*.csv
+
+# HTML output
+visuals/*.html
+
+# Ignore system environment files (optional)
+.env
