@@ -114,11 +114,20 @@ vacation-planning-package/
 git clone https://github.com/kaancelik99/vacation-planning-package.git
 cd vacation-planning-package
 
-2. **Install required libraries**:
+2. **Set Up the Virtual Environment**:
+
+python -m pip install virtualenv
+
+python -m venv venv
+source venv/bin/activate      # On Mac/Linux
+venv\Scripts\activate         # On Windows
+pip install -r requirements.txt
+
+3. **Install required libraries**:
 
 pip install pandas matplotlib seaborn jupyter plotly
 
-3. **Launch the notebook**:
+4. **Launch the notebook**:
 
 jupyter notebook notebooks/flights_hotels_analysis.ipynb
 
