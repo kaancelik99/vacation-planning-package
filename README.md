@@ -102,7 +102,14 @@ vacation-planning-package/
 │   └── hotels_usa.csv
 ├── notebooks/
 │   └── flights_hotels_analysis.ipynb
-└── README.md
+├── visuals/
+│   ├── ad.html
+│   └── vacation_planning_package.twb
+├── README.md
+├── DATA_DICTIONARY.md
+├── requirements.txt
+├── .gitattributes
+└── .gitignore
 ```
 
 ---
@@ -167,4 +174,3 @@ For questions, collaboration, or feedback, feel free to contact:
 
 Salim Kaan Celik
 📧 Email: celik1999@gmail.com
-
