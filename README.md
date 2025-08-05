@@ -101,7 +101,9 @@ vacation-planning-package/
 │   ├── flight_data_usa.csv
 │   └── hotels_usa.csv
 ├── notebooks/
-│   └── flights_hotels_analysis.ipynb
+│   ├── flights_hotels_analysis.ipynb
+│   └── output/
+│       └── luxury_hotels.csv
 ├── visuals/
 │   ├── ad.html
 │   └── vacation_planning_package.twb
