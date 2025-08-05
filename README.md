@@ -4,6 +4,14 @@ This project leverages **Python data analysis** tools to evaluate U.S. domestic 
 
 ---
 
+## 🗂️ Data Sources
+
+Here are the datasets that were used for this project. Since these datasets were too large to upload to GitHub, this project limits the data to analyze flights to the US and hotels in the US.
+- Flights:
+- Hotels: https://www.kaggle.com/datasets/raj713335/tbo-hotels-dataset
+
+---
+
 ## 📌 Project Objective
 
 Build an interactive vacation planning tool using real-world datasets to identify optimal city-hotel combinations based on:
