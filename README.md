@@ -133,7 +133,7 @@ pip install pandas matplotlib seaborn jupyter plotly
 
 4. **Launch the notebook**:
 
-jupyter notebook notebooks/flights_hotels_analysis.ipynb
+notebooks/flights_hotels_analysis.ipynb
 
 ---
 
