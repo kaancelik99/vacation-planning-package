@@ -165,7 +165,7 @@ Hotel: The W South Beach, 5 stars, High customer reviews
 
 This pairing meets both cost and quality thresholds.
 
-Created ad.html to advertise the vacation package to the target market, in Spanish.
+Created ad.html to advertise the vacation package to its target market, in Spanish.
 
 ---
 
