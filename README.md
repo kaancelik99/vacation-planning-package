@@ -126,13 +126,13 @@ jupyter notebook notebooks/flights_hotels_analysis.ipynb
 
 ## 📈 Visualizations
 
-Dual-Axis Chart: Monthly flight volume (bar) + average price (line)
+- Tableau Public Link: https://public.tableau.com/app/profile/kaan.celik5338/viz/vacation_planning_package/Dashboard1
 
-Scatter Plot: Correlation between hotel quality and flight cost
+Flights Map: Represents all flight routes, connecting origin and destination locations, including price and frequency.
 
-City Labels: Annotated cities for insight-driven decisions
+Number of Hotels by State: Represents hotel quantity standards for target area.
 
-(Optional): Use plotly for hoverable, interactive charts
+Average Hotel Rating by State: Represents hotel quality standards for target area.
 
 ---
 
