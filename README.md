@@ -99,7 +99,7 @@ The project workflow follows these key steps:
 vacation-planning-package/
 ├── data/
 │   ├── flight_data_usa.csv
-│   └── hotels_usa.csv
+│   └── hotels_usa.csv (download link and save in this format)
 ├── notebooks/
 │   ├── flights_hotels_analysis.ipynb
 │   └── output/
@@ -124,7 +124,13 @@ git clone https://github.com/kaancelik99/vacation-planning-package.git
 
 cd vacation-planning-package
 
-2. **Set Up the Virtual Environment**:
+2. **Download hotels_usa.csv dataset**:
+
+install from link in hotels_usa.csv
+
+save as hotels_usa.csv in the data folder 
+
+3. **Set Up the Virtual Environment**:
 
 python -m pip install virtualenv
 
@@ -136,11 +142,11 @@ venv\Scripts\activate         # On Windows
 
 pip install -r requirements.txt
 
-3. **Install required libraries**:
+4. **Install required libraries**:
 
 pip install pandas matplotlib seaborn jupyter plotly
 
-4. **Launch the notebook**:
+5. **Launch the notebook**:
 
 notebooks/flights_hotels_analysis.ipynb
 
