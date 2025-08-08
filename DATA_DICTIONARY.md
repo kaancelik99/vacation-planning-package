@@ -45,12 +45,13 @@ This data dictionary provides descriptions of all variables included in the **Fl
 | `Description`     | Description or summary of the hotel and its offerings                  | String    | `Offering a free continental breakfast...`          |
 | `FaxNumber`       | Fax number of the hotel                                                | String    | `+13378981463`                                      |
 | `HotelFacilities` | List of available facilities or services                               | String    | `shared lounge/TV area...`                          |
-| `Map`             | Geocoordinates for hotel location                                      | String    | `29.9806|-92.11452`                                 |
+| `Map`             | Geocoordinates for hotel location                                      | String    | `29.9806 -92.11452`                                 |
 | `PhoneNumber`     | Contact phone number                                                   | String    | `+13378981453`                                      |
 | `PinCode`         | Postal or ZIP code of the hotel location (some include state code)     | String    | `LA 70510`                                          |
 | `HotelWebsiteUrl` | Official website URL of the hotel                                      | String    | `https://www.booking.com/city/us/abbeville-us.html` |
 
 ---
+
 
 
 
