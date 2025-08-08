@@ -165,15 +165,39 @@ Average Hotel Rating by State: Represents hotel quality standards for target are
 ---
 
 ## 📌 Final Result
-✅ Selected Vacation Package:
+# ✈️ Flight: Bogotá to Miami #
 
-**Flight: Bogotá → Miami** Direct, August departure, Round-trip under $200
+**International Origin:** Bogotá meets the non-U.S. departure criteria.
 
-**Hotel: The W South Beach** 5 stars, High customer reviews
+**Direct Flight:** The selected flight has 0 stops, meeting comfort and efficiency standards.
 
-This pairing meets both cost and quality thresholds.
+**Affordability:** The price is under $200, offering exceptional value for an international route.
 
-Created ad.html to advertise the vacation package to its target market, in Spanish.
+**Timing:** Departure occurs in August, aligning with peak vacation season.
+
+**Duration:** It is the shortest duration among all matching flights, minimizing travel fatigue.
+
+# 🏨 W South Beach Hotel in Miami #
+
+**Luxury Standards:** Rated 5 stars with premium amenities like multiple pools, spa services, beachfront access, and valet service.
+
+**Multilingual Staff:** Ensures smooth guest communication for international travelers.
+
+**Private Balconies:** Offers enhanced privacy and luxury views for all rooms.
+
+**Ideal Location:** Steps from Collins Avenue and Miami Beach Convention Center.
+
+**Well-Rounded Amenities:** Includes fitness, dining, business services, and eco-friendly policies.
+
+**Unique Value:** Outperformed other 5-star options like Nobu or Faena in terms of guest services, personalized luxury, and multilingual support.
+
+# 📊 Overall Insights: #
+
+**Bogotá to Miami** offers the best-value international direct flight under $200 in August.
+
+**W South Beach** is the most compatible hotel for a premium, multilingual, beachfront stay that aligns with high-end traveler expectations.
+
+Created **ad.html** to advertise the vacation package to its target audience, in Spanish.
 
 ---
 
