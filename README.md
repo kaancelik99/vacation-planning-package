@@ -107,7 +107,7 @@ vacation-planning-package/
 │       └── luxury_hotels.csv
 ├── visuals/
 │   ├── ad.html
-│   ├── vacation_planning_package.twb
+│   ├── vacation_planning_package.twb (Tableau Desktop)
 │   └── vacation_planning_package.twbx (Tableau Public, download link and save in this format)
 ├── README.md
 ├── DATA_DICTIONARY.md
