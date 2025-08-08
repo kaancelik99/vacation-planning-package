@@ -40,29 +40,29 @@ Build an interactive vacation planning tool using real-world datasets to identif
 
 The project workflow follows these key steps:
 
-1. **Data Loading & Inspection**  
+**1. Data Loading & Inspection**  
    Load and preview datasets using `pandas`.
 
-2. **Filtering & Cleaning**  
+**2. Filtering & Cleaning**  
    - Align city and state between flights and hotels.
    - Remove duplicates and null entries.
    - Standardize city naming formats.
 
-3. **City-Level Aggregation**  
+**3. City-Level Aggregation**  
    - Group data by `City, State` to compute:
      - Average flight prices
      - Average hotel ratings
 
-4. **Relational Data Join Using SQLite**  
+**4. Relational Data Join Using SQLite**  
    - Use the `sqlite3` library to simulate a relational database join.
    - Merge the flight and hotel datasets by matching city and state values.
    - Execute SQL queries within the notebook to filter and rank destinations.
 
-5. **Selection Logic & Thresholds**  
+**5. Selection Logic & Thresholds**  
    - Filter cities with at least 16,000 flights and 800 hotels.
    - Select cities ranking in the top 3 for both affordability and hotel quality.
 
-6. **Case Study & Visualization**  
+**6. Case Study & Visualization**  
    - Plot relationships between hotel ratings and flight prices.
    - Drill into specific vacation routes (e.g., Bogotá → Miami).
 
@@ -118,19 +118,19 @@ vacation-planning-package/
 
 ## 🔧 Setup Instructions
 
-1. **Clone the repository**:
+**1. Clone the repository**:
 
 git clone https://github.com/kaancelik99/vacation-planning-package.git
 
 cd vacation-planning-package
 
-2. **Download hotels_usa.csv dataset**:
+**2. Download hotels_usa.csv dataset**:
 
 install from link in hotels_usa.csv
 
 save as hotels_usa.csv in the data folder 
 
-3. **Set Up the Virtual Environment**:
+**3. Set Up the Virtual Environment**:
 
 python -m pip install virtualenv
 
@@ -142,11 +142,11 @@ venv\Scripts\activate         # On Windows
 
 pip install -r requirements.txt
 
-4. **Install required libraries**:
+**4. Install required libraries**:
 
 pip install pandas matplotlib seaborn jupyter plotly
 
-5. **Launch the notebook**:
+**5. Launch the notebook**:
 
 notebooks/flights_hotels_analysis.ipynb
 
@@ -154,7 +154,7 @@ notebooks/flights_hotels_analysis.ipynb
 
 ## 📈 Visualizations
 
-- Tableau Public Link: https://public.tableau.com/app/profile/kaan.celik5338/viz/vacation_planning_package/Dashboard1
+**Tableau Public Link:** https://public.tableau.com/app/profile/kaan.celik5338/viz/vacation_planning_package/Dashboard1
 
 Flights Map: Represents all flight routes, connecting origin and destination locations, including price and frequency.
 
@@ -167,9 +167,9 @@ Average Hotel Rating by State: Represents hotel quality standards for target are
 ## 📌 Final Result
 ✅ Selected Vacation Package:
 
-Flight: Bogotá → Miami: Direct, August departure, Round-trip under $200
+**Flight: Bogotá → Miami** Direct, August departure, Round-trip under $200
 
-Hotel: The W South Beach, 5 stars, High customer reviews
+**Hotel: The W South Beach** 5 stars, High customer reviews
 
 This pairing meets both cost and quality thresholds.
 
@@ -180,5 +180,5 @@ Created ad.html to advertise the vacation package to its target market, in Spani
 ## 💬 Contact
 For questions, collaboration, or feedback, feel free to contact:
 
-Salim Kaan Celik
-📧 Email: celik1999@gmail.com
+**Salim Kaan Celik**
+Email: celik1999@gmail.com
