@@ -7,8 +7,8 @@ This project leverages **Python data analysis** tools to evaluate U.S. domestic 
 ## 🗂️ Data Sources
 
 Here are the datasets that were used for this project. Since these datasets were too large to upload to GitHub, this project limits the data to analyze flights to the US and hotels in the US.
-- Flights: https://www.kaggle.com/datasets/polartech/flight-data-with-1-million-or-more-records
-- Hotels: https://www.kaggle.com/code/raghavmaheshwarii/hotels-dataset
+- **Flights:** https://www.kaggle.com/datasets/polartech/flight-data-with-1-million-or-more-records
+- **Hotels:** https://www.kaggle.com/code/raghavmaheshwarii/hotels-dataset
 
 ---
 
@@ -16,9 +16,9 @@ Here are the datasets that were used for this project. Since these datasets were
 
 Build an interactive vacation planning tool using real-world datasets to identify optimal city-hotel combinations based on:
 
-- Low round-trip flight prices from international origins
-- High hotel star ratings and customer reviews
-- Matching city and state destinations for alignment
+**- Low round-trip flight prices from international origins**
+**- High hotel star ratings and customer reviews**
+**- Matching city and state destinations for alignment**
 
 ---
 
@@ -194,11 +194,11 @@ Open the analysis notebook located at:
 
 **Tableau Public Link:** https://public.tableau.com/app/profile/kaan.celik5338/viz/vacation_planning_package/Dashboard1
 
-Flights Map: Represents all flight routes, connecting origin and destination locations, including price and frequency.
+**Flights Map:** Represents all flight routes, connecting origin and destination locations, including price and frequency.
 
-Number of Hotels by State: Represents hotel quantity standards for target area.
+**Number of Hotels by State:** Represents hotel quantity standards for target area.
 
-Average Hotel Rating by State: Represents hotel quality standards for target area.
+**Average Hotel Rating by State:** Represents hotel quality standards for target area.
 
 ---
 
@@ -243,4 +243,5 @@ Created **ad.html** to advertise the vacation package to its target audience, in
 For questions, collaboration, or feedback, feel free to contact:
 
 **Salim Kaan Celik**
-Email: celik1999@gmail.com
+**Email:** celik1999@gmail.com
+**LinkedIn:** https://www.linkedin.com/in/kaancelik1
