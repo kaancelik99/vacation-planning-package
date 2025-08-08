@@ -87,7 +87,7 @@ The project workflow follows these key steps:
 
 ### Hotels
 - **Destination:** Must match the flight's destination city
-- **Rating:** 5-star ratings prioritized
+- **Rating:** **5-star** ratings prioritized
 - **Location:** Accessible to city activities 
 - **Amenities:** Maximizing hotel value
 - **Staff:** Multilingual staff preferred
