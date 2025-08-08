@@ -86,10 +86,11 @@ The project workflow follows these key steps:
 - **Timing**: Summer months prioritized
 
 ### Hotels
-- Must match the flight's destination city
-- 5-star or near-5-star ratings prioritized
-- Review scores factored into quality
-- Price considered in overall trip cost
+- **Destination:** Must match the flight's destination city
+- **Rating:** 5-star ratings prioritized
+- **Location:** Accessible to city activities 
+- **Amenities:** Maximizing hotel value
+- **Staff:** Multilingual staff preferred
 
 ---
 
@@ -118,37 +119,74 @@ vacation-planning-package/
 
 ## 🔧 Setup Instructions
 
-**1. Clone the repository**:
+### 1. **Clone the Repository**
 
+```bash
 git clone https://github.com/kaancelik99/vacation-planning-package.git
-
 cd vacation-planning-package
+```
 
-**2. Download hotels_usa.csv dataset**:
+### 2. **Download the Dataset**
 
-install from link in hotels_usa.csv
+- Download the `hotels_usa.csv` file from the provided link (see file for source).
+- Save it to the `data/` folder in your project directory.
 
-save as hotels_usa.csv in the data folder 
+> 📂 Path: `vacation-planning-package/data/hotels_usa.csv`
 
-**3. Set Up the Virtual Environment**:
+---
 
+### 3. **Set Up the Virtual Environment**
+
+Install `virtualenv` if not already installed:
+
+```bash
 python -m pip install virtualenv
+```
 
+Create and activate the virtual environment:
+
+**Mac/Linux:**
+```bash
 python -m venv venv
+source venv/bin/activate
+```
 
-source venv/bin/activate      # On Mac/Linux
+**Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
-venv\Scripts\activate         # On Windows
+---
 
+### 4. **Install Dependencies**
+
+Install from `requirements.txt`:
+
+```bash
 pip install -r requirements.txt
+```
 
-**4. Install required libraries**:
+Install any additional required libraries:
 
+```bash
 pip install pandas matplotlib seaborn jupyter plotly
+```
 
-**5. Launch the notebook**:
+---
 
-notebooks/flights_hotels_analysis.ipynb
+### 5. **Launch the Jupyter Notebook**
+
+Start the notebook environment:
+
+```bash
+jupyter notebook
+```
+
+Open the analysis notebook located at:
+
+📓 `notebooks/flights_hotels_analysis.ipynb`
+
 
 ---
 
