@@ -31,24 +31,25 @@ This data dictionary provides descriptions of all variables included in the **Fl
 
 ## 🏨 Hotels Dataset
 
-| Column            | Description                                                            | Data Type | Example                                                                              |
-|-------------------|------------------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------|
-| `countyCode`      | Unique identifier code for the Country (column misspelled)             | String    | `US`                                                                                 |
-| `countyName`      | Name of the Country (column misspelled)                                | String    | `United States`                                                                      |
-| `cityCode`        | Unique identifier code for the City                                    | Integer   | `100328`                                                                             |
-| `cityName`        | Location of hotel in City,   State format                              | String    | `Abbeville,   Louisiana`                                                             |
-| `HotelCode`       | Unique identifier code for the hotel                                   | Integer   | `1125999`                                                                            |
-| `HotelName`       | Name of the hotel                                                      | String    | `Budget Inn & Suites`                                                                |
-| `HotelRating`     | Rating of the hotel (out of 5 stars, All = 0 stars)                    | String    | `TwoStar`                                                                            |
-| `Address`         | Street address of the hotel                                            | String    | `2115 Charity Street AbbevilleLouisiana 70510`                                       |
-| `Attractions`     | Notable nearby attractions or landmarks                                | String    | `Distances are displayed...`                                                         |
-| `Description`     | Description or summary of the hotel and its offerings                  | String    | `Offering a free continental breakfast...`                                           |
-| `FaxNumber`       | Fax number of the hotel                                                | String    | `+13378981463`                                                                       |
-| `HotelFacilities` | List of available facilities or services                               | String    | `shared lounge/TV area...`                                                           |
-| `Map`             | Geocoordinates for hotel location                                      | String    | `v29.9806|-92.11452`                                                                 |
-| `PhoneNumber`     | Contact phone number                                                   | String    | `+13378981453`                                                                       |
-| `PinCode`         | Postal or ZIP code of the hotel location (some include state code)     | String    | `LA 70510`                                                                           |
-| `HotelWebsiteUrl` | Official website URL of the hotel                                      | String    | `http://www.grandbeachresort.com](https://www.booking.com/city/us/abbeville-us.html` |
+| Column            | Description                                                            | Data Type | Example                                             |
+|-------------------|------------------------------------------------------------------------|-----------|-----------------------------------------------------|
+| `countyCode`      | Unique identifier code for the Country (column misspelled)             | String    | `US`                                                |
+| `countyName`      | Name of the Country (column misspelled)                                | String    | `United States`                                     |
+| `cityCode`        | Unique identifier code for the City                                    | Integer   | `100328`                                            |
+| `cityName`        | Location of hotel in City,   State format                              | String    | `Abbeville,   Louisiana`                            |
+| `HotelCode`       | Unique identifier code for the hotel                                   | Integer   | `1125999`                                           |
+| `HotelName`       | Name of the hotel                                                      | String    | `Budget Inn & Suites`                               |
+| `HotelRating`     | Rating of the hotel (out of 5 stars, All = 0 stars)                    | String    | `TwoStar`                                           |
+| `Address`         | Street address of the hotel                                            | String    | `2115 Charity Street AbbevilleLouisiana 70510`      |
+| `Attractions`     | Notable nearby attractions or landmarks                                | String    | `Distances are displayed...`                        |
+| `Description`     | Description or summary of the hotel and its offerings                  | String    | `Offering a free continental breakfast...`          |
+| `FaxNumber`       | Fax number of the hotel                                                | String    | `+13378981463`                                      |
+| `HotelFacilities` | List of available facilities or services                               | String    | `shared lounge/TV area...`                          |
+| `Map`             | Geocoordinates for hotel location                                      | String    | `v29.9806|-92.11452`                                |
+| `PhoneNumber`     | Contact phone number                                                   | String    | `+13378981453`                                      |
+| `PinCode`         | Postal or ZIP code of the hotel location (some include state code)     | String    | `LA 70510`                                          |
+| `HotelWebsiteUrl` | Official website URL of the hotel                                      | String    | `https://www.booking.com/city/us/abbeville-us.html` |
 
 ---
+
 
