@@ -1,6 +1,6 @@
 # ✈️ Vacation Planning Package: Flight Affordability & Hotel Quality
 
-This project leverages **Python data analysis** tools to evaluate U.S. domestic flight prices and hotel quality ratings. The goal is to help users make smarter, data-driven decisions when planning a vacation by identifying cities that offer both affordable flights and highly rated hotels.
+This project leverages **Python data analysis** tools to evaluate U.S. domestic flight prices and hotel quality ratings. The goal is to help users make smarter, data-driven decisions when planning a vacation by identifying cities that offer both **affordable flights** and **highly rated hotels**.
 
 ---
 
@@ -243,5 +243,5 @@ Created **ad.html** to advertise the vacation package to its target audience, in
 For questions, collaboration, or feedback, feel free to contact:
 
 **Salim Kaan Celik**
-**Email:** celik1999@gmail.com
-**LinkedIn:** https://www.linkedin.com/in/kaancelik1
+- **Email:** celik1999@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/kaancelik1
