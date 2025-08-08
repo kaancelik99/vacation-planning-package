@@ -16,9 +16,9 @@ Here are the datasets that were used for this project. Since these datasets were
 
 Build an interactive vacation planning tool using real-world datasets to identify optimal city-hotel combinations based on:
 
-**- Low round-trip flight prices from international origins**
-**- High hotel star ratings and customer reviews**
-**- Matching city and state destinations for alignment**
+- **Low round-trip flight prices from international origins**
+- **High hotel star ratings and customer reviews**
+- **Matching city and state destinations for alignment**
 
 ---
 
@@ -71,12 +71,12 @@ The project workflow follows these key steps:
 ## 📊 Selection Criteria
 
 ### Destinations
-- Must be a U.S. city with:
+- Must be a **U.S. city** with:
   - **≥ 16,000 flights**
   - **≥ 800 hotels**
 - Must rank in the **top 3** for:
-  - Lowest average flight price
-  - Highest average hotel rating
+  - **Lowest average flight price**
+  - **Highest average hotel rating**
 
 ### Flights
 - **Origin**: Must depart from outside the U.S.
